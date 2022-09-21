@@ -1,0 +1,47 @@
+.app {
+  text-align: center;
+}
+
+h1 {
+  color: orange;
+}
+
+.text {
+  height: 70px;
+  margin: 20px auto;
+  width: 500px;
+  font-size: 20px;
+  line-height: 50px;
+  display: flex;
+  text-align: center;
+}
+
+.resultado {
+  font-size: 50px;
+  line-height: 50px;
+  color: green;
+}
+
+.btn {
+  border-radius: 5px;
+  height: 110px;
+  margin: 20px auto;
+  width: 500px;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.btn:hover {
+  filter: contrast(20);
+  cursor: pointer;
+}
+
+.btn:active { 
+  filter: contrast(0);
+}
+
+.btn-calcular {
+  background-color: #003cff3b;
+  border: rgb(0, 9, 128) 2px solid;
+  color: rgb(1, 0, 70);
+}
